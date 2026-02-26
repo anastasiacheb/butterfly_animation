@@ -40,9 +40,9 @@ gsap.to(from, {
 gsap.fromTo("#icon1",
   { xPercent: 100
 
-   }, // старт — за экраном справа
+   }, 
   {
-    xPercent: 0,   // центр
+    xPercent: 0,   
     duration: 2,
     ease: "expo.inOut",
     repeat: -1,
@@ -52,13 +52,3 @@ gsap.fromTo("#icon1",
 
 
 
-// gsap.registerPlugin(MorphSVGPlugin)
-
-// const from = gsap.utils.toArray("#icon1 path")
-// const to   = gsap.utils.toArray("#icon2 path")
-
-// gsap.to(from, {
-//   duration: 1,
-//   morphSVG: (i) => to[i],
-//   ease: "power2.inOut"
-// })
